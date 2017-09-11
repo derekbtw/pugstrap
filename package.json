@@ -1,0 +1,34 @@
+{
+  "name": "Pugstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap/Pug/Sass with Pug project starter",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekbtw/pugstrap.git"
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "scss",
+    "bootstrap",
+    "bootstrap4",
+    "gulp"
+  ],
+  "author": "Derek Bytheway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekbtw/pugstrap/issues"
+  },
+  "homepage": "https://github.com/derekbtw/pugstrap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-watch-pug": "^1.0.0"
+  }
+}
