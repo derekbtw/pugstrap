@@ -6,7 +6,6 @@ var gulp_watch_pug = require('gulp-watch-pug');
 var connect = require('gulp-connect');
 
 var config = {
-    bootStrapDir: './bower_components/bootstrap',
     publicDir: './public'
 }
 
@@ -17,12 +16,10 @@ gulp.task('connect', function() {
     });
 });
 
-//keeps gulp from crashing for scss errors & gives sass access to bootstrap
 gulp.task('sass', function() {
     return gulp.src('./sass/*.scss')
         .pipe(sass({ 
-            errLogToConsole: true,
-            includePaths: [config.bootStrapDir + '/assets/stylesheets']
+            errLogToConsole: true
         }))
         .pipe(gulp.dest(config.publicDir + '/css'));
 });
