@@ -1,49 +1,10 @@
-doctype html
-html(lang="en")
-  head
-    meta(charset="utf-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-    meta(name="description" content="")
-    meta(name="author" content="")
-    link(rel="icon" href="./favicon.ico")
-    title= "Pugstrap Project Starter"
-    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css")
-    link(rel="stylesheet" href="./css/app.css")
-      
-  body
-    nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
-      a.navbar-brand(href="#") Pugstrap
-      button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbar01" aria-controls="navbar01" aria-expanded="false" aria-label="Toggle Navigation")
-        span.navbar-toggler-icon
-      .collapse.navbar-collapse#navbar01
-        ul.navbar-nav.mr-auto
-          li.nav-item.active
-            a.nav-link(href="#") Home <span class="sr-only">(current)</span>
-          li.nav-item
-            a.nav-link(href="#") Link
-          li.nav-item
-            a.nav-link.disabled(href="#") Disabled
-          li.nav-item.dropdown
-            a.nav-link.dropdown-toggle#dropdown01(href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown
-            .dropdown-menu(aria-labelledby="dropdown01")
-              a.dropdown-item(href="#") Action
-              a.dropdown-item(href="#") Another action
-              a.dropdown-item(href="#") Something else here
-        form.form-inline.my-2.my-lg-0
-          input.form-control.mr-sm-2(type="text" placeholder="Search" aria-label="Search")
-          button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
-    
-    
-    .container
-      
-      .starter-template
-        h1 Pugstrap starter template
-        p.lead Something here. Keep it simple and to the point.
-        p
-          code browser-sync start --server --files "css/*.css" "*.html"
-        
-        
-    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js")
-    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js")
-    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js")
-    script(src="./js/app.js")
+extends structure/_layout.pug
+
+block content
+
+  .container
+    .starter-template
+      h1 Pugstrap starter template
+      p.lead Something here. Keep it simple and to the point.
+      p
+        code browser-sync start --server --files "css/*.css" "*.html"
