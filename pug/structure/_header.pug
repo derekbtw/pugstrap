@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary.fixed-top
+  a.navbar-brand(href="#") Pugstrap
+  button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbar01" aria-controls="navbar01" aria-expanded="false" aria-label="Toggle Navigation")
+    span.navbar-toggler-icon
+  .collapse.navbar-collapse#navbar01
+    ul.navbar-nav.mr-auto
+      li.nav-item.active
+        a.nav-link(href="#") Home <span class="sr-only">(current)</span>
+      li.nav-item
+        a.nav-link(href="#") Link
+      li.nav-item
+        a.nav-link.disabled(href="#") Disabled
+      li.nav-item.dropdown
+        a.nav-link.dropdown-toggle#dropdown01(href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown
+        .dropdown-menu(aria-labelledby="dropdown01")
+          a.dropdown-item(href="#") Action
+          a.dropdown-item(href="#") Another action
+          a.dropdown-item(href="#") Something else here
+    ul.navbar-nav.flex-row.ml-md-auto.d-md-flex
+      li.nav-item
+        a.nav-link(href="https://github.com/derekbtw/pugstrap" target="_blank") GitHub
