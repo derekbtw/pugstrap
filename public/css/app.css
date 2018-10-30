@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6501,6 +6502,9 @@ html {
 body {
   padding-top: 5rem;
   margin-bottom: 60px; }
+
+h1, h2, h3, h4 {
+  font-family: "Roboto Slab", sans-serif; }
 
 .starter-template {
   padding: 3rem 1.5rem;
