@@ -1,14 +1,14 @@
 # Pugstrap
-Pug/Sass project starter with Bootstrap 4 and Gulp
+Pug/Sass project starter with Bootstrap 4 and live-reload
 
 ## Getting started
 
 ```sh
-$ npm install
+$ yarn
 ```
 
 ```sh
 $ gulp
 ```
 
-Gulp will now watch for changes in the pug and sass directories.
+Gulp will now watch for changes in the pug and sass directories with live-reload.
